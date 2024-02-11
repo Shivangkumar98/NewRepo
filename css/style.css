@@ -10,7 +10,12 @@
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
+    right: 5px;
+    bottom: 5px;
+    z-index: 999;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    transition: all .3s ease;
     bottom: 45px;
     z-index: 99;
 }
