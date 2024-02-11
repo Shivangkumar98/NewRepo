@@ -520,10 +520,10 @@ h6,
 border: 25px solid #EEEEEE;
 }
 .small-h1 {
-    font-size: 20px; /* adjust the value to your desired size */
+    font-size: 24px; /* adjust the value to your desired size */
     
     top: 20px;
-    right: -42%;
+    right: -43%;
     position: absolute;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -537,8 +537,8 @@ border: 25px solid #EEEEEE;
   .navbar-toggler{
     position: relative;
     float: right;
-    left: 220px;
-    
+    left: 280px;
+    z-index: 9999;
     }
   html, body {
     width: 100%;
