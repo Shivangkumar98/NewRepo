@@ -1,4 +1,6 @@
 /********** Template CSS **********/
+
+
 :root {
     --primary: #FE5D37;
     --light: #FFF5F3;
@@ -514,13 +516,28 @@ border: 25px solid #EEEEEE;
 }
 .small-h1 {
     font-size: 20px; /* adjust the value to your desired size */
+    
+    top: 20px;
+    right: -42%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: relative;
   }
   .small-h1 img {
-    width: 12%;
-    height: 15%;
+    width: 10%;
+    left:  2%;
+
   }
   .navbar-toggler{
     position: relative;
     float: right;
-    left: 290px;
-  }
+    left: 220px;
+    
+    }
+  html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+  
